@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="torinthcss.css">
+    <title>Contact</title>
+</head>
+<body>
+    <a name="top"></a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li>
+                <div class="dropdownMenu">
+                    <button class="dropdownButton"> Setting </button>
+                    <div class="dropdownContents">
+                        <a href="gods.html">The Gods</a>
+                        <a href="magic.html">Magic</a>
+                        <a href="species.html">Species</a>
+                        <a href="technology">Technology</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdownMenu">
+                    <button class="dropdownButton"> Locations </button>
+                    <div class="dropdownContents">
+                        <a href="alis.html">Alis</a>
+                        <a href="sevcia.html">Sevcia</a>
+                        <a href="vespa.html">Queendoms of Vespa</a>
+                        <a href="ascana.html">Ascana</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdownMenu">
+                    <button class="dropdownButton"> Character Options </button>
+                    <div class="dropdownContents">
+                        <a href="races.html">Races</a>
+                        <a href="subclasses.html">Subclasses</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdownMenu">
+                    <button class="dropdownButton"> Campaigns </button>
+                    <div class="dropdownContents">
+                        <a href="cloud.html">The Clouds(l)inger</a>
+                    </div>
+                </div> 
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <br>
+
+
+    <div class="contactDiv">
+        <h1 class="cenText">Contact</h1>
+        
+        <p>Interested in joing the VIU club, which is where I run my games? Email 
+            <a href="mailto:dungeonsdragons.club@viusu.ca">dungeonsdragons.club@viusu.ca</a> 
+            for more information on what we do and how to join.</p>
+
+        <p>Questions about Torinth or my campaigns? Feedback to provide? Please fill out the form below:</p>
+    
+        <form method="post" action="submitmessage.php" class="contactForm">
+            
+            <div class="horizontal">
+                <input type="radio" name="type" value="rule">Question
+                <input type="radio" name="subject" value="world">Feedback
+            </div>
+
+
+            <h5>Subject</h5>
+            <div class="horizontal">
+                <input type="radio" name="subject" value="rule">Rules
+                <input type="radio" name="subject" value="world">World
+                <input type="radio" name="subject" value="campaign">Campaign
+                <input type="radio" name="subject" value="other">Other
+            </div>
+
+
+            <h5>Email</h5>
+            <input type="text" size="31" name="email" placeholder="Required for questions"> <br>
+
+            <h5>Message</h5>
+            <input type="text" size="31" name="lastname" placeholder="Title">
+            <textarea name="body" rows="10" cols="30" placeholder="Body"></textarea>
+            <br>
+
+            <input type="submit" value="Submit" class="submitbutton">
+                
+        </form>
+    </div>
+
+    <br><br>
+
+    <footer>
+        &copy; Gage Vanderlee <br>
+        April 2, 2022 <br>
+        All rights reserved
+    </footer>
+    
+
+</body>
+</html>
